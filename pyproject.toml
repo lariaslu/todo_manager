@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "todo-manager"
+version = "0.1.0"
+description = ""
+authors = ["learias <leonardo.ariasluque@external.stellantis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nicegui = "^2.3.0"
+sqlalchemy = "^2.0.35"
+tailwind = "^3.1.5b0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
